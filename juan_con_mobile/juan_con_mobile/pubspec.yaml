@@ -1,0 +1,22 @@
+name: juan_con_mobile
+description: App móvil Flutter basada en JUAN-CON ULTIMATE HTML
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.1.1
+  image_picker: ^0.8.7+5
+  path_provider: ^2.0.14
+  file_picker: ^5.2.5
+  fluttertoast: ^8.2.1
+  cupertino_icons: ^1.0.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
